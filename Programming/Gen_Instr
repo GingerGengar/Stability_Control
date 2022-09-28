@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#Arg1: Name of address to write Instructions to
+#Arg2: Starting Angle of Attack
+#Arg3: Increments of AOA's
+#Arg4: Number of AOA increments
+
+#Basic Names of the instruction file
+Base_Instr_Name="Stab_Instr_AVL.txt"
+
+#Name of AVL Output File
+Out_File="Outhouse.txt"
+
+#Appending the address of where instruction files should be written to
+Full_Instr_Name=$1$Base_Instr_Name
+
+#Enter Operational mode
+echo "OPER" > $Full_Instr_Name
+
+#Iterate over the different increments
+for ((index = 1; index <= $4; index=index+1)) ;do
+    #Set the Angle of Attack
+    AOA=$(echo $2"+"$index"*"$3 | bc)
+    echo "A A " $AOA >> $Full_Instr_Name
+    #Execute the Case
+    echo "X" >> $Full_Instr_Name
+    #Write into File
+    echo "W" >> $Full_Instr_Name
+    if [ $index -eq 1 ]; then
+        #For the first run case, enter the output filename
+        echo $Out_File >> $Full_Instr_Name
+    else
+        #For subsequent cases, just leave it blank, avl should know
+        echo " " >> $Full_Instr_Name
+    fi
+    #Create New Case
+    echo + >> $Full_Instr_Name
+done
+
+#Exit Operation Mode
+echo " " >> $Full_Instr_Name
+
+#Quit AVL
+echo "QUIT" >> $Full_Instr_Name

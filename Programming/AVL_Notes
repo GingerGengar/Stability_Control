@@ -1,0 +1,7 @@
+You must verify that the file you are writing to does not already exist. AVL will not replace an already existing fie.
+
+You need to run X for every case in existence
+You need to Write W for every case in existence
+The order matters, you need to write first before moving on to the next. AVL does not remember results from the previous case.
+
+

@@ -1,0 +1,236 @@
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\section{Preliminary Theoretical Basis}
+\begin{comment}
+\end{comment}
+Based on inviscid analysis of an airfoil, there is a point in the airfoil called the aerodynamic center wherein the moments experienced about that point is insensitive to angle of attack.
+The concept of aerodynamic center can be extended to wings on an aircraft.
+The moment about the aerodynamic center of an aircraft wing is often non-zero, but it is unchanging regardless of the aircraft's orentiation.
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Single Wing Thought Experiment}
+\begin{comment}
+\end{comment}
+Let us consider a simple system where we have a single finite wing. 
+Let us have some reference point $P$ located about the zero-$\alpha$ line, but downwind of the wing.
+%Seperator
+\\~\\The moment experienced about point $P$ would be the moments about the aerodynamic center plus the influence of the lift force by the finite wing with the moment arm length evaluated at the aerodynamic center of the finite wing.
+%Seperator
+\\~\\Imagine that this point $P$ is located far away from the aerodynamic center of the finite wing.
+If the angle of attack is changed by say $5\,deg$, then this would result in a very large change of moments about point $P$ because the moment arm of the changing lift force is large.
+As point $P$ is moved closer and closer to the aerodynamic center of the finite wing, the change of $5\,deg$ in angle of attack affects the moments about point $P$ less and less because the moment arm is increasingly small.
+%Seperator
+\\~\\Eventually if point $P$ is on the aerodynamic center of the finite wing, then the moment about $P$ does not change with the angle of attack the wing is at.
+
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Double Wing Thought Experiment}
+\begin{comment}
+\end{comment}
+Let us now consider a slightly more complex system where we have $2$ finite wings.
+Wing $1$ is going to be upstream of wing $2$ and wing $2$ is going to be downstream of wing $1$.
+Let us now have point $P$ be located in between wing $1$ and wing $2$.
+%Seperator
+\\~\\Now the moments about point $P$ depends on the summation of the moments at the aerodynamic center of both wing $1$ and $2$ (unchanging with angle of attack) plus the influence of changing lift due to wing $1$ and wing $2$.
+%Seperator
+\\~\\Suppose the angle of attack for the system was increased by $5\,deg$.
+Both wings $1$ and $2$ will provide additional lift and drag, but let us ignore the drag for now. 
+The increase in lift of wing $1$ would provide a moment that tends to pitch the system "up", in the clockwise direction. 
+The increase in lift of wing $2$ would provide a moment that tends to pitch the system "down", in the counter-clockwise direction.
+%Seperator
+\\~\\If point $P$ is moved backwards closer to wing $2$, then the moments influence of wing $2$ would be smaller when the angle of attack has been increased and the moments influence of wing $1$ would be greater when the angle of attack is increased.
+This is because the moment arm length is smaller to wing $2$ and greater for wing $1$.
+Conversely, if we move point $P$ front, closer to wing $1$, then the moment influence of wing $1$ is reduced in the event of a change of angle of attack due to smaller moment arm, and the influence of wing $2$ is increased in the event of a change of angle of attack due to a larger moment arm.
+%Seperator
+\\~\\Eventually, if the lift force increases linearly with angle of attack (valid assumption) there must be a unique point in between the $2$ wings wherein the moments about that point is unchancing with angle of attack, because the influence of clockwise moments due to wing $1$ is exactly cancelled by the influence of counter-clockwise moments due to wing $2$.
+This is what is often known as the neutral point of the system.
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Longitudinal Static Stability}
+\begin{comment}
+\end{comment}
+It is often convenient to consider moments about the center of mass. 
+%Seperator
+\\~\\If the center of mass is behind the neutral point, the "influence" of wing $2$ would be reduced due to a shortening of the moment arm, and the "influence" of wing $1$ would be increased due to a lengthening of the moment arm. 
+This means that if the $2$-wing system (aircraft) pitches up slightly, wing $1$ (forward wing) is going to have a winning influence compared to wing $2$ (back wing) and the aircraft will have a tendency to keep pitching up.
+This means that an aircraft whose center of mass is behind the neutral point is statically unstable; a small pitch in any direction will give a larger tendency to deviate from level steady flight.
+%Seperator
+\\~\\If the center of mass is in front of the neutral point, the "influence" of wing $1$ would now be reduced due to the shortning of the moment arm, and the "influence" of wing $1$ would be increased due to lengthening of the moment arm.
+This is obvoius because now the center of mass (the point we are evaluating moments at) is closer to wing $1$ and further way from wing $2$.
+This means now if the $2$-wing aircraft system pitches up slightly, wing $2$ (backward wing) is going to have a winning influence compared to wing $1$ (front wing) and the aircraft would pitch back down.
+This means that for an aircraft to be statically stable, the center of mass has to be in front or upwind of the neutral point.
+
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Trim Conditions}
+\begin{comment}
+\end{comment}
+Arguably, the most important trim condition for an aircraft would be the longitudinal trim. 
+We can model the lift produced by the finite wings to be a linear function of angle of attack.
+We can also model the drag produced by the finite wings as a quadratic function of lift.
+This means we can also model the drag produced by the finite wings as a quadratic function of angle of attack.
+%Seperator
+\\~\\The lift to drag ratio is an incredibly important parameter in aerodynamic efficiency. 
+Since the lift is equivalent to weight for level and steady flight, then the drag can be wholly determined from the lift to drag ratio for the entire aircraft.
+Remembering that lift is linear with angle of attack and drag is quadratic to angle of attack, a general expression of lift to drag ratio as a function of angle of attack,
+$$\frac{L}{D} = \frac{k_{1} + k_{2}\alpha}{k_{3} + k_{4}\alpha + k_{5}\alpha^{2}}$$
+We can find the optimum lift to drag ratio by differentiation,
+$$\frac{d}{d \alpha}\left[\frac{L}{D}\right] = \frac{d}{d \alpha}\left[\frac{k_{1} + k_{2}\alpha}{k_{3} + k_{4}\alpha + k_{5}\alpha^{2}}\right]$$
+$$\frac{d}{d \alpha}\left[\frac{L}{D}\right] = \frac{k_{2}(k_{3} + k_{4}\alpha + k_{5}\alpha^{2})-(k_{1} + k_{2}\alpha)(k_{4} + 2k_{5}\alpha)}{(k_{3} + k_{4}\alpha + k_{5}\alpha^{2})^{2}}$$
+The expression above can be simplified algebraically, but if we set the derivative above to $0$, we basically set the numerator of the expression above to $0$. 
+Since the numerator is an quadratic function of $\alpha$, we have $2$ maxima/minima points for the $L/D$. 
+One is going to correspond to positive lift and the other to negative lift, so we can be assured that a single optimum angle of attack $\alpha$ would give us the best positive $L/D$.
+We will twist our entire wing to make sure that the aircraft flies at its optimum angle of attack at its ideal trim conditions.
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\section{Algorithm Development}
+\begin{comment}
+\end{comment}
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Planning}
+\begin{comment}
+\end{comment}
+\begin{enumerate}
+\item From the Aerodynamic Preliminary Design, we should have an airfoil cross-section that suits our needs. We can design our wing from this airfoil-cross section
+\item After we design our main wing, we need to determine its optimum angle of attack. We can run \texttt{avl} at a range of angles of attack and figure out the maximum Lift to Drag ratio achievable.
+\item After we have our optimum angle of attack, we need to determine the moments of coefficient at our optimum angle of attack.
+\item We then need an estimation of our center of mass. We will have to choose a static margin based on historical data. This static margin will control how "manuverable" our aircraft is going to be.
+\item This permits a range of possibilities of tail boom and tail size. We will attempt to minimize: 
+\\cost = weight of tail boom + weight of tail + downwash produced by tail at cruise.
+\item We can make changes to the size of the rudder and adjust the dihedral angle to get rid of roll subsidence and dutch roll.
+\end{enumerate}
+
+Longitudinal Modes:
+\begin{enumerate}
+\item Phugoid: Not important
+\item Short Period Oscillations: Not that important
+\end{enumerate}
+
+Lateral-Direction Modes:
+\begin{enumerate}
+\item Roll subsidence: This is affected by dihedral. If we have problems, just increase the dihedral.
+\item Dutch Roll: Yaw Damper is supposed to get rid of this, increase size of tail if necessary
+\item Spiral Divergence: Deadly and IDK how to offset
+\end{enumerate}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Trim\_Wing}
+\begin{comment}
+\end{comment}
+This is a \texttt{Bash} script which calls on all of the other functionalities to perform an aerodynamic "trim" of the wing.
+\lstinputlisting[language=Bash]{Programming/Trim_Wing}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Gen\_Wing\_AVL.py}
+\begin{comment}
+\end{comment}
+The solver of choice is \texttt{avl} due to its scriptability. We need to produce a text file that contains a textual description of the "aircraft" we want to model. Because we are "trimming" the main wing of the aircraft, we this \texttt{Python} script only defines the bare minimum for a wing. Note the wing type which is a tapered wing desribed in this script is essentially chosen from the Aerodynamics Preliminary Design and just because of ease of manufacturing. Note that this takes an input file from the previous aerodynamic study.
+\lstinputlisting[language=Python]{Programming/Gen_Wing_AVL.py}
+To use this \texttt{Python} script, invoke the command,
+\begin{lstlisting}
+python Gen_Wing_AVL.py Wing_Parameters.tex Naca_6412.dat
+\end{lstlisting}
+The contents of the file \texttt{Wing\_Parameters.tex}  is shown below,
+\lstinputlisting{Programming/Wing_Parameters.tex}
+A sample output of this is shown below,
+\lstinputlisting{Programming/Wing_Trim/Simple_Taper.avl}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Gen\_Instr}
+\begin{comment}
+\end{comment}
+This \texttt{Bash} script generates the instruction for \texttt{avl} to make and run all of the test cases. It's outputs are rather complicated especially if you want a large number of increments,
+\lstinputlisting[language=Bash]{Programming/Gen_Instr}
+A small part of the output is shown below,
+\begin{lstlisting}
+OPER
+A A  5.3
+X
+W
+Outhouse.txt
++
+A A  5.6
+X
+W
+ 
++
+...
+\end{lstlisting}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Clean\_Data}
+\begin{comment}
+\end{comment}
+So the text file named \texttt{Outhouse.txt} (appropriately named) produced by \texttt{avl} is in a messy format. The \texttt{Bash} script here basically extracts only the important useful things and compiles them into a file which can be conveniently read in \texttt{Python}.
+\lstinputlisting[language=Bash]{Programming/Clean_Data}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Comp\_Trim\_Angle.py}
+\begin{comment}
+\end{comment}
+This \texttt{Python} file takes in the already cleaned data from \texttt{Outhouse.txt} and figures out the maximum lift to drag ratio as well as the correspoonding angle of attack.
+\lstinputlisting[language=Python]{Programming/Comp_Trim_Angle.py}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Plot\_Wing\_Performance.py}
+\begin{comment}
+\end{comment}
+This \texttt{Python} script is only used for data visualization and to plot a predicted lift curve slope compared to the \texttt{avl} results. This is used to generate a "better" view of the whole story.
+\lstinputlisting[language=Python]{Programming/Plot_Wing_Performance.py}
+
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\section{Results}
+\begin{comment}
+\end{comment}
+
+The results for the lift to drag ratio seems unrealistic and so is the angle of attack. The main issue is that \texttt{avl} is a vortex lattice method, which is an inviscid solver. This means that drag due to viscous effects are severely underestimated. Since drag is the denominator in the lift to drag ratio, this inaccurate predictions of drag leads to wildly inaccurate results for the main wing's optimum angle of attack.
+
+We have also attempted to "inject" viscous drag taken from \texttt{xfoil} directly for the airfoil operating at $50000$ Reynold's number and the results are still unrealistic. On the other hand, the lift curve slope matches well with the approximate expression, indiciating that the approximation for the lift curve slope is usable for modelling purposes.
+
+

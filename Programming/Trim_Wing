@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Generate the Wing Configuration File
+./Gen_Wing_AVL.py Wing_Parameters.tex Naca_6412.dat > Wing_Trim/Simple_Taper.avl
+
+#Generate avl Instructions
+./Gen_Instr Wing_Trim/ 5 0.3 24
+
+#Run avl
+cd Wing_Trim/
+avl Simple_Taper.avl < Stab_Instr_AVL.txt
+
+#Move the data out
+mv Outhouse.txt ..
+
+#Get out of there
+cd ..
+
+#Cleanup the data for Python
+./Clean_Data Outhouse.txt
+
+#Figure out final trim angle
+./Comp_Trim_Angle.py Trim_Main_Wing.tex
+

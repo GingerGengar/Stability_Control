@@ -1,0 +1,35 @@
+Simple_Tapered_Wing
+#Mach
+ 0.0
+#IYsym   IZsym   Zsym
+ 0 0 0
+#Sref    Cref    Bref
+0.75 0.45 2.2988505747126435
+#Xref    Yref    Zref
+ 0.13603500000000002 0 0
+#CDp
+ 0.05597
+#################################################################
+SURFACE
+WING
+#Nchordwise     Cspace  Nspanwise   Sspace
+30 1.0 30 1.0
+YDUPLICATE
+ 0.0
+ANGLE
+ 0.0
+# x,y,z bias for whole surface
+TRANSLATE
+ 0.0 0.0 0.0
+#################################################################
+SECTION
+#   Xle     Yle     Zle     chord       angle       Nspan       Sspace
+0 0 0 0.45 0 30 1.0
+AFIL
+ Naca_6412.dat
+#################################################################
+SECTION
+#   Xle     Yle     Zle     chord       angle       Nspan       Sspace
+0.12375 1.1494252873563218 0 0.2025 0 30 1.0
+AFIL
+ Naca_6412.dat

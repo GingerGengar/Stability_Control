@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {0.1}Preliminary Theoretical Basis}{2}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Single Wing Thought Experiment}{2}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Double Wing Thought Experiment}{2}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.1.3}Longitudinal Static Stability}{3}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {0.1.4}Trim Conditions}{3}{subsection.0.1.4}%
+\contentsline {section}{\numberline {0.2}Algorithm Development}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Planning}{3}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {0.2.2}Trim\_Wing}{4}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {0.2.3}Gen\_Wing\_AVL.py}{5}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {0.2.4}Gen\_Instr}{6}{subsection.0.2.4}%
+\contentsline {subsection}{\numberline {0.2.5}Clean\_Data}{7}{subsection.0.2.5}%
+\contentsline {subsection}{\numberline {0.2.6}Comp\_Trim\_Angle.py}{8}{subsection.0.2.6}%
+\contentsline {subsection}{\numberline {0.2.7}Plot\_Wing\_Performance.py}{8}{subsection.0.2.7}%
+\contentsline {section}{\numberline {0.3}Results}{10}{section.0.3}%

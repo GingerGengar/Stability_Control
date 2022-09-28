@@ -1,0 +1,744 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.30000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.01006     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09638
+  CZtot =  -0.85347     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.84889
+  CDtot =   0.08885
+  CDvis =   0.05597     CDind = 0.0328836
+  CLff  =   0.85194     CDff  = 0.0329432    | Trefftz
+  CYff  =   0.00000         e =    0.9953    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.60000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00515     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09631
+  CZtot =  -0.87687     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.87218
+  CDtot =   0.09069
+  CDvis =   0.05597     CDind = 0.0347192
+  CLff  =   0.87559     CDff  = 0.0347955    | Trefftz
+  CYff  =   0.00000         e =    0.9953    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.90000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00004     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09623
+  CZtot =  -0.90020     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.89543
+  CDtot =   0.09257
+  CDvis =   0.05597     CDind = 0.0366010
+  CLff  =   0.89921     CDff  = 0.0366966    | Trefftz
+  CYff  =   0.00000         e =    0.9954    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   6.20000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.00527     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09615
+  CZtot =  -0.92346     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.91863
+  CDtot =   0.09450
+  CDvis =   0.05597     CDind = 0.0385284
+  CLff  =   0.92281     CDff  = 0.0386462    | Trefftz
+  CYff  =   0.00000         e =    0.9954    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   6.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.01076     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09606
+  CZtot =  -0.94664     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.94177
+  CDtot =   0.09647
+  CDvis =   0.05597     CDind = 0.0405010
+  CLff  =   0.94639     CDff  = 0.0406440    | Trefftz
+  CYff  =   0.00000         e =    0.9955    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   6.80000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.01645     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09597
+  CZtot =  -0.96974     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.96487
+  CDtot =   0.09849
+  CDvis =   0.05597     CDind = 0.0425184
+  CLff  =   0.96994     CDff  = 0.0426899    | Trefftz
+  CYff  =   0.00000         e =    0.9955    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   7.10000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.02233     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09587
+  CZtot =  -0.99276     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.98790
+  CDtot =   0.10055
+  CDvis =   0.05597     CDind = 0.0445800
+  CLff  =   0.99346     CDff  = 0.0447837    | Trefftz
+  CYff  =   0.00000         e =    0.9956    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   7.40000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.02840     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09577
+  CZtot =  -1.01569     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.01089
+  CDtot =   0.10266
+  CDvis =   0.05597     CDind = 0.0466854
+  CLff  =   1.01695     CDff  = 0.0469251    | Trefftz
+  CYff  =   0.00000         e =    0.9956    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   7.70000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.03466     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09566
+  CZtot =  -1.03854     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.03382
+  CDtot =   0.10480
+  CDvis =   0.05597     CDind = 0.0488341
+  CLff  =   1.04042     CDff  = 0.0491139    | Trefftz
+  CYff  =   0.00000         e =    0.9956    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.04111     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09555
+  CZtot =  -1.06129     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.05668
+  CDtot =   0.10700
+  CDvis =   0.05597     CDind = 0.0510256
+  CLff  =   1.06386     CDff  = 0.0513498    | Trefftz
+  CYff  =   0.00000         e =    0.9957    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.30000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.04775     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09543
+  CZtot =  -1.08396     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.07950
+  CDtot =   0.10923
+  CDvis =   0.05597     CDind = 0.0532592
+  CLff  =   1.08726     CDff  = 0.0536326    | Trefftz
+  CYff  =   0.00000         e =    0.9957    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.60000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.05457     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09531
+  CZtot =  -1.10653     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.10225
+  CDtot =   0.11150
+  CDvis =   0.05597     CDind = 0.0555346
+  CLff  =   1.11064     CDff  = 0.0559621    | Trefftz
+  CYff  =   0.00000         e =    0.9957    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.90000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.06159     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09518
+  CZtot =  -1.12900     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.12493
+  CDtot =   0.11382
+  CDvis =   0.05597     CDind = 0.0578511
+  CLff  =   1.13399     CDff  = 0.0583379    | Trefftz
+  CYff  =   0.00000         e =    0.9958    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   9.20000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.06879     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09505
+  CZtot =  -1.15137     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.14756
+  CDtot =   0.11618
+  CDvis =   0.05597     CDind = 0.0602082
+  CLff  =   1.15731     CDff  = 0.0607599    | Trefftz
+  CYff  =   0.00000         e =    0.9958    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   9.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.07618     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09491
+  CZtot =  -1.17364     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.17012
+  CDtot =   0.11858
+  CDvis =   0.05597     CDind = 0.0626052
+  CLff  =   1.18060     CDff  = 0.0632278    | Trefftz
+  CYff  =   0.00000         e =    0.9958    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   9.80000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.08375     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09477
+  CZtot =  -1.19581     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.19261
+  CDtot =   0.12101
+  CDvis =   0.05597     CDind = 0.0650417
+  CLff  =   1.20385     CDff  = 0.0657413    | Trefftz
+  CYff  =   0.00000         e =    0.9959    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.10000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.09150     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09462
+  CZtot =  -1.21787     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.21504
+  CDtot =   0.12349
+  CDvis =   0.05597     CDind = 0.0675170
+  CLff  =   1.22707     CDff  = 0.0683000    | Trefftz
+  CYff  =   0.00000         e =    0.9959    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.40000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.09944     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09446
+  CZtot =  -1.23982     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.23740
+  CDtot =   0.12600
+  CDvis =   0.05597     CDind = 0.0700305
+  CLff  =   1.25026     CDff  = 0.0709039    | Trefftz
+  CYff  =   0.00000         e =    0.9959    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.70000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.10757     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09430
+  CZtot =  -1.26166     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.25969
+  CDtot =   0.12855
+  CDvis =   0.05597     CDind = 0.0725815
+  CLff  =   1.27341     CDff  = 0.0735524    | Trefftz
+  CYff  =   0.00000         e =    0.9959    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.11587     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09414
+  CZtot =  -1.28339     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.28192
+  CDtot =   0.13114
+  CDvis =   0.05597     CDind = 0.0751695
+  CLff  =   1.29653     CDff  = 0.0762455    | Trefftz
+  CYff  =   0.00000         e =    0.9960    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.30000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.12436     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09397
+  CZtot =  -1.30500     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.30406
+  CDtot =   0.13376
+  CDvis =   0.05597     CDind = 0.0777939
+  CLff  =   1.31961     CDff  = 0.0789827    | Trefftz
+  CYff  =   0.00000         e =    0.9960    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.60000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.13302     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09380
+  CZtot =  -1.32649     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.32614
+  CDtot =   0.13642
+  CDvis =   0.05597     CDind = 0.0804538
+  CLff  =   1.34266     CDff  = 0.0817638    | Trefftz
+  CYff  =   0.00000         e =    0.9960    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.90000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.14186     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09362
+  CZtot =  -1.34786     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.34814
+  CDtot =   0.13912
+  CDvis =   0.05597     CDind = 0.0831488
+  CLff  =   1.36566     CDff  = 0.0845884    | Trefftz
+  CYff  =   0.00000         e =    0.9960    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Simple_Tapered_Wing                                         
+     # Surfaces =   2
+     # Strips   =  60
+     # Vortices =1800
+
+  Sref = 0.75000       Cref = 0.45000       Bref =  2.2989    
+  Xref = 0.13604       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  12.20000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.15088     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.09344
+  CZtot =  -1.36910     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.37007
+  CDtot =   0.14185
+  CDvis =   0.05597     CDind = 0.0858781
+  CLff  =   1.38864     CDff  = 0.0874563    | Trefftz
+  CYff  =   0.00000         e =    0.9960    | Plane  
+
+
+ ---------------------------------------------------------------

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#Arg1: Name of Data File
+
+#Clean Up the alpha file
+Alpha_File="ALPHA_DELETE_THIS.txt"
+grep 'Alpha' $1 > $Alpha_File
+sed -i 's/Alpha =//' $Alpha_File
+sed -i 's/p/\n/' $Alpha_File
+sed -i '/^b/d' $Alpha_File
+
+#Clean up the total Lift coefficeint File
+CL_tot_File="CL_DELETE_THIS.txt"
+grep 'CLtot' $1 > $CL_tot_File
+sed -i 's/CLtot =//' $CL_tot_File
+
+#Clean up the Total Drag Coefficient File
+CD_tot_File="CD_DELETE_THIS.txt"
+grep 'CDtot' $1 > $CD_tot_File
+sed -i 's/CDtot =//' $CD_tot_File
+
+#Re-arrange into columns
+paste $Alpha_File $CL_tot_File $CD_tot_File | column -s $'\t' -t > Trim_Main_Wing.tex
+
+#Clean-up intermediate files
+rm $Alpha_File $CL_tot_File $CD_tot_File
+
+#Add the file headers
+sed -i '1i\#Angle of Attack (deg) | Lift Coefficient | Drag Coefficient' Trim_Main_Wing.tex
