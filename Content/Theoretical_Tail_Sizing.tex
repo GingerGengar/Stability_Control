@@ -1,0 +1,188 @@
+
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\section{Theoretical Tail Sizing}
+\begin{comment}
+\end{comment}
+
+\begin{figure}[H]\centering
+\def\svgwidth{523px}
+\input{Aircraft_Coord_System.pdf_tex}
+\caption{Schematic of Aircraft}
+\label{Aircraft Diagram}
+\end{figure}
+
+We are going to label the main wing that is upstream of the stabilizer as wing A.
+We are going to label the stabilizer as wing B. Wing B is going to be downstream of wing A.
+We are going to adopt \texttt{AVL}'s coordinate system wherein $x$ represents distance downstream of aircraft, $y$ goes out of the right wing of the aircraft, and $z$ points up from the body of the aircraft.
+We are also going to nest the coordinate system's origin at the leading edge of the main wing.
+%Seperator
+\\~\\The aircraft is going to be divided into $2$ sections, the fuselage section and the tail section. 
+The fuselage section are is indicated in the diagram and includes wing A as well.
+The tail section is also going to include wing B.
+%Seperator
+\\~\\Here is a list of abbreviations used in the diagram and an explanation of what the abbreviations represent.
+\begin{enumerate}
+\item \texttt{OCS}: Origin of Coordinate System
+\item \texttt{CG Overall}: Overall Center of Gravity accounting both fuselage section and tail section
+\item \texttt{CG Fuselage}: Center of Gravity of the forward fuselage section
+\item \texttt{CG Tail}: Center of Gravity of the aft tail section
+\item \texttt{NP}: Neutral Point of the Aircraft
+\end{enumerate}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Center of Gravity}
+\begin{comment}
+\end{comment}
+The definition for center of gravity for a system of discrete masses is shown below,
+\begin{equation}
+x_{cg,o} = \frac{\displaystyle \sum^{n}_{i = 1}\left[m_{i}x_{i}\right]}{\displaystyle \sum^{n}_{i = 1}\left[m_{i}\right]}
+\label{Oveall Center of Mass Definition}
+\end{equation}
+We can use the equation above to find out the overall center of mass for the aircraft if we have the mass and center of mass location of both the fuselage section and the tail section. Considering for the case wherein $n = 2$,
+$$x_{cg,o} = \frac{m_{f}x_{cg,f} + m_{t}x_{cg,t}}{m_{f} + m_{t}}$$
+wherein $m_{f}$ and $m_{t}$ represents the total mass of the fuselage and the tail section respectively. $x_{cgf}$ represents the center of gravity for the fuselage section and $x_{cgt}$ represents the center of gravity for the tail section. We can use equation $\ref{Overall Center of Mass Definition}$ to determine the overall center of gravity if we want to consider decompose the tail section into the effect of the tail boom, wing B, and other masses including rudder.
+\begin{equation}
+x_{cg,o} = \frac{m_{f}x_{cg,f} + m_{wb}x_{cg,wb} + m_{tb}x_{cg,tb} + m_{tm}x_{cg,tm}}{m_{f} + m_{wb} + m_{tb} + m_{tm}} 
+\label{center of gravity 3 objects}\end{equation}
+wherein $wb$ is supposed to represent wing B, $tb$ is supposed to represent tail boom, $tm$ represents tail miscellaneous mass.
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Static Margin}
+\begin{comment}
+\end{comment}
+Because of the coordinate system that was declared, there should be a slight modification to the definition of static margin,
+$$s_{m} = \frac{x_{np} - x_{cg,o}}{c_{hr,a}}$$
+wherein $c_{hr,a}$ represents the chord length of wing A. The equation above can be re-manipulated for the location of the neutral point,
+$$s_{m}c_{hr,a} = x_{np} - x_{cg,o}$$
+\begin{equation}
+x_{np} = s_{m}c_{hr,a} + x_{cg,o}
+\label{neutral point Static Margin}\end{equation}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Lift Curve Slopes}
+\begin{comment}
+\end{comment}
+The neutral point is going to be defined where the Moments acting on the aircraft about that point is unchanging with angle of attack. This means that for an increase in angle of attack, the increase in moments of the wings upstream of the neutral point must be matched by the decrease in moments of the wings downstream.
+$$0 = \sum^{n_{w}}_{i = 1}\left[L_{\alpha,i}(x_{np}-x_{ac,i})\right]$$
+wherein $x_{ac,i}$ represents the $i^{th}$ wing on the system and $n_{w}$ represents the number of wings in the aircraft. $L_{\alpha,i}$ represents the derivative of lift force with respect to angle of attack $\alpha$ for the $i^{th}$ wing. Just for convenience, we can multiply both sides by $-1$ and obtain,
+$$0 = \sum^{n_{w}}_{i = 1}\left[L_{\alpha,i}(x_{ac,i}-x_{np})\right]$$
+This is the same expression and concept for center of gravity, so we should not be surprised if we can express $x_{np}$ similarly to how center of gravity is expressed. Let us substitute for the conventional system where we are only dealing with $2$ wings,
+$$0 = \sum^{2}_{i = 1}\left[L_{\alpha,i}(x_{ac,i}-x_{np})\right] = L_{\alpha,a}(x_{ac,a}-x_{np}) + L_{\alpha,b}(x_{ac,b}-x_{np})$$
+$$-L_{\alpha,a}(x_{ac,a}-x_{np}) = L_{\alpha,b}(x_{ac,b}-x_{np})$$
+$$L_{\alpha,a}(x_{np}-x_{ac,a}) = L_{\alpha,b}(x_{ac,b}-x_{np})$$
+The lift slope of a wing in terms of the non-dimensional parameters is shown below
+$$L_{\alpha} = \frac{1}{2}\rho v_{\infty}^{2} A_{w} c_{L,\alpha}$$
+Substituting this lift slope in terms of non-dimensional parameters,
+$$\frac{1}{2}\rho v_{\infty}^{2} A_{w,a} c_{L\alpha,a} (x_{np}-x_{ac,a}) = \frac{1}{2}\rho v_{\infty}^{2} A_{w,b} c_{L\alpha,b}(x_{ac,b}-x_{np})$$
+\begin{equation}A_{w,a} c_{L\alpha,a} (x_{np}-x_{ac,a}) = A_{w,b} c_{L\alpha,b}(x_{ac,b}-x_{np}) \label{lift curve slope}\end{equation}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Tail Downforce}
+\begin{comment}
+\end{comment}
+For the moments about the center of gravity to remain $0$ for level and steady flight, the moments from all the wings about the center of gravity must add up to zero. Therefore,
+$$0 = \sum^{n_{w}}_{i = 1}\left[L_{0,i}(x_{cg,o}-x_{ac,i}) + M_{0,i}\right]$$
+wherein $n_{w}$ represents the number of wings on the aircraft. Expanding just for the case of $2$ wings,
+$$0 = L_{0,a}(x_{cg,o}-x_{ac,a}) + M_{0,a} + L_{0,b}(x_{cg,o}-x_{ac,b}) + M_{0,b}$$
+$$ - L_{0,b}(x_{cg,o}-x_{ac,b}) - M_{0,b} = L_{0,a}(x_{cg,o}-x_{ac,a}) + M_{0,a}$$
+$$L_{0,b}(x_{ac,b}-x_{cg,o}) - M_{0,b} = L_{0,a}(x_{cg,o}-x_{ac,a}) + M_{0,a}$$
+We can use this equation to determine the downforce that the tail should produce for trim flight providing we know enough of the unknowns. Manipulating,
+$$L_{0,b}(x_{ac,b}-x_{cg,o}) = L_{0,a}(x_{cg,o}-x_{ac,a}) + M_{0,a} + M_{0,b}$$
+\begin{equation}L_{0,b} = \frac{L_{0,a}(x_{cg,o}-x_{ac,a}) + M_{0,a} + M_{0,b}}{(x_{ac,b}-x_{cg,o})} \label{tail downforce}\end{equation}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Substitutions}
+\begin{comment}
+\end{comment}
+Let us start by substituting $x_{np}$ out of equation $\ref{lift curve slope}$ using equation $\ref{neutral point Static Margin}$,
+$$A_{w,a} c_{L\alpha,a} \left[s_{m}c_{hr,a} + x_{cg,o} - x_{ac,a}\right] = A_{w,b} c_{L\alpha,b}\left[x_{ac,b} -s_{m}c_{hr,a} - x_{cg,o}\right] $$
+$$A_{w,a} c_{L\alpha,a} \left[(s_{m}c_{hr,a} - x_{ac,a}) + x_{cg,o}\right] = A_{w,b} c_{L\alpha,b}\left[(x_{ac,b} -s_{m}c_{hr,a}) - x_{cg,o}\right] $$
+We are modelling the center of gravity to be a rational function of the wing B's area $A_{w,b}$, and it will get very complicated, so we are going to group the known variables together to make it more readable. Let,
+\begin{equation}k_{1,a} = s_{m}c_{hr,a} - x_{ac,a} \quad,\quad k_{1,b} = x_{ac,b} -s_{m}c_{hr,a} \label{k1 definitions}\end{equation}
+Notationally simplifying,
+\begin{equation}A_{w,a} c_{L\alpha,a} \left[k_{1,a} + x_{cg,o}\right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b} - x_{cg,o}\right] \label{Area of Tail Part 1}\end{equation}
+Re-iterating the expression for center of gravity that includes the tail boom, wing B and miscellaneous masses at the tail (equation $\ref{center of gravity 3 objects}$),
+$$x_{cg,o} = \frac{m_{f}x_{cg,f} + m_{wb}x_{cg,wb} + m_{tb}x_{cg,tb} + m_{tm}x_{cg,tm}}{m_{f} + m_{wb} + m_{tb} + m_{tm}} $$
+$$x_{cg,o} = \frac{m_{f}x_{cg,f} + m_{tb}x_{cg,tb} + m_{tm}x_{cg,tm} + m_{wb}x_{cg,wb}}{m_{f} + m_{tb} + m_{tm} + m_{wb}}$$
+Let us group the known variables,
+\begin{equation}k_{2,u} = m_{f}x_{cg,f} + m_{tb}x_{cg,tb} + m_{tm}x_{cg,tm} \quad,\quad k_{2,l} = m_{f} + m_{tb} + m_{tm} \label{k2 definitions}\end{equation}
+Notationally simplifying the expression for center of gravity for the aircraft,
+$$x_{cg,o} = \frac{ k_{2,u} + m_{wb}x_{cg,wb}}{k_{2,l} + m_{wb}}$$
+Substituting the equation above into equation $\ref{Area of Tail Part 1}$,
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a} + x_{cg,o}\right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b} - x_{cg,o}\right] $$
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a} + \frac{ k_{2,u} + m_{wb}x_{cg,wb}}{k_{2,l} + m_{wb}}\right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b} - \frac{ k_{2,u} + m_{wb}x_{cg,wb}}{k_{2,l} + m_{wb}}\right] $$
+Multiplying both hand sides by $k_{2,l} + m_{wb}$,
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a}(k_{2,l} + m_{wb}) + k_{2,u} + m_{wb}x_{cg,wb} \right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b}(k_{2,l} + m_{wb}) - (k_{2,u} + m_{wb}x_{cg,wb})\right] $$
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a}(k_{2,l} + m_{wb}) + k_{2,u} + m_{wb}x_{cg,wb} \right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b}(k_{2,l} + m_{wb}) - k_{2,u} - m_{wb}x_{cg,wb}\right]$$
+Let us expand and group $m_{wb}$ terms together,
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a}k_{2,l} + k_{1,a}m_{wb} + k_{2,u} + m_{wb}x_{cg,wb} \right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b}k_{2,l} + k_{1,b}m_{wb} - k_{2,u} - m_{wb}x_{cg,wb}\right]$$
+$$A_{w,a} c_{L\alpha,a} \left[k_{1,a}k_{2,l} + k_{2,u} + k_{1,a}m_{wb} + m_{wb}x_{cg,wb} \right] = A_{w,b} c_{L\alpha,b}\left[k_{1,b}k_{2,l} - k_{2,u} + k_{1,b}m_{wb} - m_{wb}x_{cg,wb}\right]$$
+$$A_{w,a} c_{L\alpha,a} \left[(k_{1,a}k_{2,l} + k_{2,u}) + (k_{1,a} + x_{cg,wb})m_{wb}\right] = A_{w,b} c_{L\alpha,b}\left[(k_{1,b}k_{2,l} - k_{2,u}) + (k_{1,b} - x_{cg,wb})m_{wb} \right]$$
+The expression is getting very long, so let us declare yet another set of notationally simplifying variables,
+\begin{equation}k_{3,lc} = k_{1,a}k_{2,l} + k_{2,u} \quad,\quad k_{3,ld} = k_{1,a} + x_{cg,wb} \label{k3 definitions left}\end{equation}
+\begin{equation}k_{3,rc} = k_{1,b}k_{2,l} - k_{2,u} \quad,\quad k_{3,rd} = k_{1,b} - x_{cg,wb} \label{k3 definitions right}\end{equation}
+Substituting these notational simplifications again,
+\begin{equation}A_{w,a} c_{L\alpha,a} \left[k_{3,lc} + k_{3,ld}m_{wb}\right] = A_{w,b} c_{L\alpha,b}\left[k_{3,rc} + k_{3,rd}m_{wb} \right] \label{General Tail Sizing}\end{equation}
+Without making any further assumptions, the equation above is as far as we can go with our tail sizing. To proceed further, we have to relate the area of the tail or wing B with the mass of wing B. For that, we are going to make a linear approximation, so we are going to assume the following,
+$$m_{wb} = c_{bs}A_{w,b} + c_{bf}$$
+wherein $c_{bs}$ and $c_{bf}$ are fixed constants and $A_{w,b}$ represents area of wing B (tail stabilizer). Substituting into equation $\ref{General Tail Sizing}$,
+$$A_{w,a} c_{L\alpha,a} \left[k_{3,lc} + k_{3,ld} (c_{bs}A_{w,b} + c_{bf}) \right] = A_{w,b} c_{L\alpha,b}\left[k_{3,rc} + k_{3,rd} (c_{bs}A_{w,b} + c_{bf})\right] $$
+It should be obvious at this point that the expression above is a quadratic in terms of $A_{w,b}$ and that we can solve for $A_{w,b}$. Manipulating the expression above to form a quadratic,
+$$A_{w,a} c_{L\alpha,a} \left[k_{3,lc} + k_{3,ld}c_{bs}A_{w,b} + k_{3,ld}c_{bf} \right] = A_{w,b} c_{L\alpha,b}\left[k_{3,rc} + k_{3,rd}c_{bs}A_{w,b} + k_{3,rd}c_{bf}\right] $$
+$$A_{w,a} c_{L\alpha,a} \left[(k_{3,lc} + k_{3,ld}c_{bf}) + k_{3,ld}c_{bs}A_{w,b} \right] = A_{w,b} c_{L\alpha,b}\left[(k_{3,rc} + k_{3,rd}c_{bf}) + k_{3,rd}c_{bs}A_{w,b}\right] $$
+$$A_{w,a} c_{L\alpha,a}(k_{3,lc} + k_{3,ld}c_{bf}) + A_{w,a} c_{L\alpha,a}k_{3,ld}c_{bs}A_{w,b}   =  A_{w,b} c_{L\alpha,b}(k_{3,rc} + k_{3,rd}c_{bf}) + A_{w,b} c_{L\alpha,b}k_{3,rd}c_{bs}A_{w,b}  $$
+$$A_{w,a}c_{L\alpha,a}(k_{3,lc}+k_{3,ld}c_{bf}) + A_{w,a}c_{L\alpha,a}k_{3,ld}c_{bs}A_{w,b} = c_{L\alpha,b}(k_{3,rc}+k_{3,rd}c_{bf})A_{w,b} + c_{L\alpha,b}k_{3,rd}c_{bs}A_{w,b}^{2}$$
+$$A_{w,a}c_{L\alpha,a}(k_{3,lc}+k_{3,ld}c_{bf}) = c_{L\alpha,b}k_{3,rd}c_{bs}A_{w,b}^{2} + c_{L\alpha,b}(k_{3,rc}+k_{3,rd}c_{bf})A_{w,b} - A_{w,a}c_{L\alpha,a}k_{3,ld}c_{bs}A_{w,b}$$
+$$0 = c_{L\alpha,b}k_{3,rd}c_{bs}A_{w,b}^{2} + [c_{L\alpha,b}(k_{3,rc}+k_{3,rd}c_{bf})-A_{w,a}c_{L\alpha,a}k_{3,ld}c_{bs}]A_{w,b} - A_{w,a}c_{L\alpha,a}(k_{3,lc}+k_{3,ld}c_{bf})$$
+We can declare another set of constants, hopefully this is the last one to provide us an even greater shortening of the expression's notations.
+\begin{equation}k_{4,a} = c_{L\alpha,b}k_{3,rd}c_{bs} \label{k4 definitions coeff a}\end{equation}
+\begin{equation}k_{4,b} = c_{L\alpha,b}(k_{3,rc}+k_{3,rd}c_{bf})-A_{w,a}c_{L\alpha,a}k_{3,ld}c_{bs} \label{k4 definitions coeff b}\end{equation}
+\begin{equation}k_{4,c} =  - A_{w,a}c_{L\alpha,a}(k_{3,lc}+k_{3,ld}c_{bf}) \label{k4 definitions coeff c}\end{equation}
+Substituting these notational simplifications,
+$$0 = k_{4,a}A_{w,b}^{2} + k_{4,b}A_{w,b} + k_{4,c}$$
+the constants above $k_{4,a}$ $k_{4,b}$ and $k_{4,c}$ are all known constants. We can solve the equation above,
+$$A_{w,b} = \frac{1}{2k_{4,a}}\left(-k_{4,b} \pm \sqrt{k_{4,b}^{2}-4k_{4,a}k_{4,c}}\right)$$
+
+Let us pause a moment and think of what we have done. For all of the workings just in this section, we have assumed nothing except that the mass of wing B (tail) is going to vary linearly with its surface area. We have a generalized method of determining the size of an aircraft's tail wing given that we know the size of the tail boom and everything else. We took into account the desired static margin, and also took into account the moving center of gravity due to a larger tail, which is very useful.
+%Seperator
+\\~\\We can supplement additional equations for all the other unknowns and write an iteration algorithm to optimize a design for our aircraft. This will be discussed extensively in the next part of this study.
+
+\begin{comment}
+Develop Expression for Overall CG
+Use Static Margin to Determine position of the desired Neutral Point
+Develop Expression for location of Neutral Point, given location of neutral points of the wings, and lift curve slopes for each wing
+Compute the Downforce Needed to balance the aircraft based on Moments about CG Overall being zero.
+Develop Cost function as Downforce + Weight of Tail Section
+Differentiate based on surface Area of tail, figure out optimum surface Area of tail
+Figure out the rest of all the other variables
+
+We can supplement approximate location of neutral point with 0.3 from avl experimentation
+We can supplement the lift curve slope using the approximation that was verified to be correct
+
+Fixed variables:
+Main Wing Completely Fixed
+Aspect Ratio of Tail is Fixed, just need to size Area
+Trim Angle, and hence, Lift, Moments of Main Wing
+\end{comment}
+
+

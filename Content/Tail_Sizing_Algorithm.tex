@@ -1,0 +1,62 @@
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\section{Tail Sizing Algorithm}
+\begin{comment}
+\end{comment}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Planning}
+\begin{comment}
+\end{comment}
+We are going to claim that the aerodynamic properties of a wing can be completely described if we know the following things:
+\begin{enumerate}
+\item Lift Slope: How the lift coefficient of wing changes with angle of attack, this is affected by aspect ratio and oswald efficiency factor.
+\item Location of aerodynamic center: The non-dimensional location of the wing's neutral point, this is not always quarter chord.
+\item Moments about aerodynamic center: The Moment coefficient associated to the wing at its neutral point, affected by camber of wing, but independent to angle of attack
+\item Value of lift at Trim AOA: This is affected by initial angle of attack, also due to camber of wing
+\end{enumerate}
+Before we proceed with dynamics and stability, we have to assume the above are known for all of the lifting surfaces of the aircraft.
+Here is a list of equations we need and was derived from the previous section:
+$$k_{1,a} = s_{m}c_{hr,a} - x_{ac,a} \quad,\quad k_{1,b} = x_{ac,b} -s_{m}c_{hr,a}$$ 
+$$k_{2,u} = m_{f}x_{cg,f} + m_{tb}x_{cg,tb} + m_{tm}x_{cg,tm} \quad,\quad k_{2,l} = m_{f} + m_{tb} + m_{tm}$$ 
+$$k_{3,lc} = k_{1,a}k_{2,l} + k_{2,u} \quad,\quad k_{3,ld} = k_{1,a} + x_{cg,wb}$$ 
+$$k_{3,rc} = k_{1,b}k_{2,l} - k_{2,u} \quad,\quad k_{3,rd} = k_{1,b} - x_{cg,wb}$$ 
+$$k_{4,a} = c_{L\alpha,b}k_{3,rd}c_{bs}$$ 
+$$k_{4,b} = c_{L\alpha,b}(k_{3,rc}+k_{3,rd}c_{bf})-A_{w,a}c_{L\alpha,a}k_{3,ld}c_{bs}$$ 
+$$k_{4,c} =  - A_{w,a}c_{L\alpha,a}(k_{3,lc}+k_{3,ld}c_{bf})$$ 
+$$A_{wb} = \frac{1}{2k_{4,a}}\left(-k_{4,b} \pm \sqrt{k_{4,b}^{2}-4k_{4,a}k_{4,c}}\right)$$
+Here is a list of variables that is referred to in the equations above,
+\begin{enumerate}
+\item $s_{m}$ : Desired Static Margin of the aircraft
+\item $c_{hr,a}$ : Chord length of the main wing
+\item $x_{ac,a}$ : Aerodynamic Center of main wing
+\item $x_{ac,b}$ : Aerodynamic Center of wing B (tail wing)
+\item $m_{f}$ : The total mass of the front fuselage
+\item $x_{cg,f}$ : Center of Gravity of front fuselage
+\item $m_{tb}$ : Mass of the Tail Boom
+\item $x_{cg,tb}$ : Location of Center of Gravity of Tail Boom
+\item $m_{tm}$ : Mass of the other things on the tail
+\item $x_{cg,tm}$ : Location of the center of gravity of the other things on tail
+\item $x_{cg,wb}$ : Center of Gravity of wing B (tail wing)
+\item $c_{L\alpha,b}$ : Derivative of Lift coefficient with respect to Angle of attack for wing B (Tail Wing)
+\item $c_{L\alpha,a}$ : Derivative of Lift coefficient with respect to Angle of attack for wing A (Main Wing)
+\item $c_{bf}$ : Fixed Constant for relating Area to Mass of wing B
+\item $c_{bs}$ : Fixed Constant for relating Area to Mass of wing B
+\item $A_{w,a}$ : Area of wing A (Main Wing)
+\item $A_{w,b}$ : Area of wing B (Tail Wing)
+\item $k_{ijk}$ : These are all intermediate variables
+\end{enumerate}
+Here are the steps of how to obtain the size of the tail of an aircraft:
+\begin{enumerate}
+\item Compute value of k's
+\item Compute the final value of $A_{w,b}$
+\end{enumerate}
+
+
