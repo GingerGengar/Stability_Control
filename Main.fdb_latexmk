@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1664587552 "Main.tex" "Main.pdf" "Main" 1664587552
+["pdflatex"] 1664637443 "Main.tex" "Main.pdf" "Main" 1664637444
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tctt1000.tfm" 1650183167 1536 c5729d01ab121276cf99b309129349a0 ""
@@ -113,13 +113,13 @@
   "Administrative/Titles_Authors.tex" 1664236311 201 42ca6c65e249d3ff24635280e2a3c3ea ""
   "Aircraft_Coord_System.pdf" 1664547347 5002 6e37557f851951f39e27ad269cef0c0d ""
   "Aircraft_Coord_System.pdf_tex" 1664547347 4060 9528e93349467adf53bd978dd619431b ""
-  "Content/Tail_Sizing_Algorithm.tex" 1664587549 3196 d5dffc1d2ebdc04cfa7462ea2790e7a4 ""
-  "Content/Theoretical_Tail_Sizing.tex" 1664587550 14797 973df3082e68ee6682d0c32ff3c3f8cd ""
+  "Content/Tail_Sizing_Algorithm.tex" 1664637439 3611 439a9185f194d1891f3245560ff19958 ""
+  "Content/Theoretical_Tail_Sizing.tex" 1664637441 16867 6d2ab42cc875074140de6a175aa70aef ""
   "Content/Theory.tex" 1664394291 13069 da9a21d8683abf47a2527300466934a0 ""
-  "Main.aux" 1664587552 5887 90313faa7df3cce255043396e4539260 "pdflatex"
-  "Main.out" 1664587552 3268 3f9420ee964593bc597ce8987e6651d8 "pdflatex"
+  "Main.aux" 1664637444 6057 6fb4f9b86df43c6590911d6794add9d8 "pdflatex"
+  "Main.out" 1664637444 3268 3f9420ee964593bc597ce8987e6651d8 "pdflatex"
   "Main.tex" 1664573559 580 59141c11cced70a54b3070675590d5af ""
-  "Main.toc" 1664587552 1888 09f515cc99de0f799996a00efc62dd97 "pdflatex"
+  "Main.toc" 1664637444 1888 09f515cc99de0f799996a00efc62dd97 "pdflatex"
   "Programming/Clean_Data" 1664409229 798 4402cb800cfbd87181364578ecad8675 ""
   "Programming/Comp_Trim_Angle.py" 1664382948 505 2c6c78e38a138d32f0611c416ece874e ""
   "Programming/Gen_Instr" 1664337664 1151 2b99449b19aa8c68bba49794dfb6276b ""

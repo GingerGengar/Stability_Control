@@ -53,6 +53,12 @@ Here is a list of variables that is referred to in the equations above,
 \item $A_{w,b}$ : Area of wing B (Tail Wing)
 \item $k_{ijk}$ : These are all intermediate variables
 \end{enumerate}
+All of the equations above and the variables above allows us to compute the area of wing B. After we have computed the area of wing B, we need to compute the mass of wing B and the compute the location of the overall center of gravity for the system.
+$$m_{wb} = c_{bs}A_{w,b} + c_{bf}$$
+$$x_{cg,o} = \frac{ k_{2,u} + m_{wb}x_{cg,wb}}{k_{2,l} + m_{wb}}$$
+For our case, $m_{tot} = m_{f} + m_{wb} + m_{tb} + m_{tm}$
+
+
 Here are the steps of how to obtain the size of the tail of an aircraft:
 \begin{enumerate}
 \item Compute value of k's
