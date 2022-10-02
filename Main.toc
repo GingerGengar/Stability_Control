@@ -20,3 +20,10 @@
 \contentsline {subsection}{\numberline {0.4.5}Substitutions}{13}{subsection.0.4.5}%
 \contentsline {section}{\numberline {0.5}Tail Sizing Algorithm}{15}{section.0.5}%
 \contentsline {subsection}{\numberline {0.5.1}Planning}{15}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {0.5.2}Common.rs}{17}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {0.5.3}Main.rs}{17}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {0.5.4}Tail\_Sizing\_Vars.rs}{17}{subsection.0.5.4}%
+\contentsline {subsection}{\numberline {0.5.5}Tail\_Area.rs}{19}{subsection.0.5.5}%
+\contentsline {subsection}{\numberline {0.5.6}Specific\_Tail\_Optimization.rs}{19}{subsection.0.5.6}%
+\contentsline {subsection}{\numberline {0.5.7}IO.rs}{20}{subsection.0.5.7}%
+\contentsline {subsection}{\numberline {0.5.8}Results}{21}{subsection.0.5.8}%

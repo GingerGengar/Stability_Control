@@ -53,16 +53,98 @@ Here is a list of variables that is referred to in the equations above,
 \item $A_{w,b}$ : Area of wing B (Tail Wing)
 \item $k_{ijk}$ : These are all intermediate variables
 \end{enumerate}
-All of the equations above and the variables above allows us to compute the area of wing B. After we have computed the area of wing B, we need to compute the mass of wing B and the compute the location of the overall center of gravity for the system.
+All of the equations above and the variables above allows us to compute the area of wing B. After we have computed the area of wing B, we need to compute the mass of wing B and the compute the location of the overall center of gravity for the system. After we determine the center of gravity, we can proceed to determining the dynamic pressure experienced by the aircraft (equation $\ref{dynamic pressure at trim}$). After that is done, we can finally compute the lift of both wing A and wing B. These are the relevant equations:
 $$m_{wb} = c_{bs}A_{w,b} + c_{bf}$$
 $$x_{cg,o} = \frac{ k_{2,u} + m_{wb}x_{cg,wb}}{k_{2,l} + m_{wb}}$$
 For our case, $m_{tot} = m_{f} + m_{wb} + m_{tb} + m_{tm}$
+$$q = \frac{m_{tot}g}{\displaystyle  A_{w,a}c_{L,0,a} + \frac{A_{w,a}c_{L,0,a}(x_{cg,o}-x_{ac,a}) + A_{w,a}c_{hr,a}c_{M,ac,a} + A_{w,b}c_{hr,b}c_{M,ac,b}}{(x_{ac,b}-x_{cg,o})} } $$
+We might want to run iteration loops later. For the computer efficiency in generating an answer, the language of choice is \texttt{Rust}.
 
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Common.rs}
+\begin{comment}
+\end{comment}
+This is where common variables like the graviational acceleration and certain common functions like definitions of lift coefficient and dynamic presure get implemented.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/Common.rs}
 
-Here are the steps of how to obtain the size of the tail of an aircraft:
-\begin{enumerate}
-\item Compute value of k's
-\item Compute the final value of $A_{w,b}$
-\end{enumerate}
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Main.rs}
+\begin{comment}
+\end{comment}
+This is where the \texttt{Main} function of the program is implemented. The part that uses \texttt{Sizing\_Tail\_Area::default()} essentially uses the default values for the simulation variables. These default values can be overriden from within the main function but we have decided to implement the variables directly as default values. Here we created a \texttt{Sizing\_Tail\_Area} structure and then called methods to operate on it, using the object oriented programming approach.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/Main.rs} 
 
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Tail\_Sizing\_Vars.rs}
+\begin{comment}
+\end{comment}
+This is where all of the data for the analysis on the aircraft tail is defined, and where the default initialization values are also defined. This and the \texttt{Common.rs} part are the only parts in the entire program where variables are initialized. These initial values dictate the entire running and output of the program. \texttt{DL} indicates variables which are later dynamically linked to other variables. Changing these \texttt{DL} variables at the default function is meaningless because these variables are overwritten before they are used later.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/Tail_Sizing_Vars.rs}
 
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Tail\_Area.rs}
+\begin{comment}
+\end{comment}
+These are all the necessary functions needed to compute the tail area of an aircraft given enough information about the "forward fusealge section" of the entire aircraft.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/Tail_Area.rs}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Specific\_Tail\_Optimization.rs}
+\begin{comment}
+\end{comment}
+This is the place where assumptions are made about the system and we start computing the "cost" function which we would want to minimize in a later part.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/Specific_Tail_Optimization.rs}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{IO.rs}
+\begin{comment}
+\end{comment}
+This is a file that handles all of the inputs and outputs of the program. This shows all of the variables and data generated which we are interested in.
+\lstinputlisting[language=C]{Tail_Sizing_Algorithm/IO.rs}
+
+%Seperator
+%Seperator
+%Seperator
+%Seperator
+\subsection{Results}
+\begin{comment}
+\end{comment}
+Compiling, running and then redirecting to a file can be done with the following command,
+\begin{lstlisting}[language=Bash]
+rustc Main.rs && ./Main > Algo_Res.tex
+\end{lstlisting}
+$$$$
+Here is the result of running the algorithm,
+\lstinputlisting{Tail_Sizing_Algorithm/Algo_Res.tex}
+
+\begin{comment}
+wing A
+dcL/d alpha(deg) = 0.07339710144927537
+x_np = 0.232* chord length
+x_np = 0.08249920000000001m
+cM = -0.13048
+\end{comment}
+
+\begin{comment}
+c_M vs alpha at center of mass
+xplot
+range of cg values not a plot just the exist
+\end{comment}

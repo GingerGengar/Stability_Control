@@ -25,7 +25,7 @@ print(data[4]) #Writing of Reference Wing Span
 
 #TODO:AUTOMATE THIS PART
 #Writing Center of Mass (Unimportant)
-print("#Xref    Yref    Zref\n", 0.3023*data[2],0,0)
+print("#Xref    Yref    Zref\n", 0.232*data[2],0,0)
 
 #TODO:AUTOMATE THIS PART
 #Writing Drag obtained from XFoil

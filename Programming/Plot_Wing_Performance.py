@@ -10,7 +10,7 @@ Dat_File = str(sys.argv[1])
 
 #Read in Data File
 data = np.genfromtxt(Dat_File)
-A_r = 7.046285286475535 
+A_r = 7.142857142857142
 zero_loc = np.argmin(data[:,0]**2)
 #This is the alpha values for the predicted line
 alpha_pred = [data[zero_loc,0], data[-1,0]]

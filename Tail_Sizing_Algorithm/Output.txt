@@ -1,0 +1,32 @@
+
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 3, Cost function: 1.6404002932203632
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 2.6, Cost function: 1.5294385383768663
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 2.5, Cost function: 1.5027608528613483
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 2.1, Cost function: 1.4071826933636347
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.7, Cost function: 1.3627408008683448
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.6, Cost function: 1.3727891434766688
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.5, Cost function: 1.40045499690567
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.3, Cost function: 1.5575755932343864
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.2, Cost function: 1.7414168646704407
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1.1, Cost function: 2.0877676272658783
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 1, Cost function: 2.818333147212245
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 0.9, Cost function: 4.926844395532363
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 0.8, Cost function: NaN
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 0.83, Cost function: NaN
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ ./Main 
+Tail Boom Length: 0.86, Cost function: 7.85734801947849
+[hyahoos@Nicole Tail_Sizing_Algorithm]$ 

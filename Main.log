@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.3)  1 OCT 2022 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.3)  1 OCT 2022 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,32 +419,32 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 1
  (/usr/share/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )) Excluding 'comment' comment. (./Programming/Clean_Data [7]) Excluding 'comment' comment. (./Programming/Comp_Trim_Angle.py) Excluding 'comment' comment. (./Programming/Plot_Wing_Performance.py [8]) [9] Excluding 'comment' comment.) (./Content/Theoretical_Tail_Sizing.tex Excluding 'comment' comment. (./Aircraft_Coord_System.pdf_tex
-<Aircraft_Coord_System.pdf, id=484, page=1, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=519, page=1, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 1>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 524.96317pt x 409.56798pt.
-<Aircraft_Coord_System.pdf, id=485, page=2, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=520, page=2, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 2>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 524.96317pt x 409.56798pt.
-<Aircraft_Coord_System.pdf, id=486, page=3, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=521, page=3, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 3>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 524.96317pt x 409.56798pt.
-<Aircraft_Coord_System.pdf, id=487, page=4, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=522, page=4, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 4>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 524.96317pt x 409.56798pt.
-<Aircraft_Coord_System.pdf, id=488, page=5, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=523, page=5, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 5>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page5 used on input line 68.
 (pdftex.def)             Requested size: 524.96317pt x 409.56798pt.
-<Aircraft_Coord_System.pdf, id=489, page=6, 398.10661pt x 310.56502pt>
+<Aircraft_Coord_System.pdf, id=524, page=6, 398.10661pt x 310.56502pt>
 File: Aircraft_Coord_System.pdf Graphic file (type pdf)
 <use Aircraft_Coord_System.pdf, page 6>
 Package pdftex.def Info: Aircraft_Coord_System.pdf , page6 used on input line 70.
@@ -473,26 +473,30 @@ pdfTeX warning: pdflatex (file ./Aircraft_Coord_System.pdf): PDF inclusion: mult
 
 LaTeX Warning: Reference `Overall Center of Mass Definition' on page 11 undefined on input line 51.
 
-Excluding 'comment' comment. Excluding 'comment' comment. [11] Excluding 'comment' comment. [12] Excluding 'comment' comment. [13] [14] Excluding 'comment' comment.) (./Content/Tail_Sizing_Algorithm.tex Excluding 'comment' comment. Excluding 'comment' comment. [15]) [16] (./Main.aux)
+Excluding 'comment' comment. Excluding 'comment' comment. [11] Excluding 'comment' comment. [12] Excluding 'comment' comment. [13] [14] Excluding 'comment' comment.) (./Content/Tail_Sizing_Algorithm.tex Excluding 'comment' comment. Excluding 'comment' comment. [15] Excluding 'comment' comment. (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+) [16] (./Tail_Sizing_Algorithm/Common.rs) Excluding 'comment' comment. (./Tail_Sizing_Algorithm/Main.rs) Excluding 'comment' comment. (./Tail_Sizing_Algorithm/Tail_Sizing_Vars.rs [17] [18]) Excluding 'comment' comment. (./Tail_Sizing_Algorithm/Tail_Area.rs) Excluding 'comment' comment. (./Tail_Sizing_Algorithm/Specific_Tail_Optimization.rs [19]) Excluding 'comment' comment. (./Tail_Sizing_Algorithm/IO.rs) Excluding 'comment' comment. [20] (./Tail_Sizing_Algorithm/Algo_Res.tex) Excluding 'comment' comment. Excluding 'comment' comment.) [21] (./Main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F9420EE964593BC597CE8987E6651D8;3268.
+(rerunfilecheck)             Checksum: 6CBA3AF147EB3C7B3628C0B9D4E5E1A2;4157.
  ) 
 Here is how much of TeX's memory you used:
- 13249 strings out of 478238
- 197983 string characters out of 5850457
- 1080864 words of memory out of 5000000
- 30866 multiletter control sequences out of 15000+600000
+ 13837 strings out of 478238
+ 206748 string characters out of 5850457
+ 1763864 words of memory out of 5000000
+ 31182 multiletter control sequences out of 15000+600000
  480285 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,66p,606b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,66p,639b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Main.pdf (17 pages, 227311 bytes).
+Output written on Main.pdf (22 pages, 255809 bytes).
 PDF statistics:
- 724 PDF objects out of 1000 (max. 8388607)
- 664 compressed objects within 7 object streams
- 400 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1066 PDF objects out of 1200 (max. 8388607)
+ 998 compressed objects within 10 object streams
+ 646 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
